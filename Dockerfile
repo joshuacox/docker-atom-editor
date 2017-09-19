@@ -22,6 +22,7 @@ RUN apt-get update && \
       libxtst6 \
       libgl1-mesa-glx \
       libgl1-mesa-dri \
+      mesa-utils \
       python \
       xdg-utils && \
     apt-get clean && \

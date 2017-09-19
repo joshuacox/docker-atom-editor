@@ -1,3 +1,6 @@
 *~
 .atom
 update.sh
+.atom.cid
+ATOM_HOME
+WORKDIR
