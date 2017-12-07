@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 ENV ATOM_VERSION=v1.20.0 \
-  ATOM_UPDATED=20171107
+  ATOM_UPDATED=20171207
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
