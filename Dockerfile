@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
-ENV ATOM_VERSION=v1.20.0 \
-  ATOM_UPDATED=20170919
+ENV ATOM_VERSION=v1.23.3 \
+  ATOM_UPDATED=20180123
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
@@ -35,4 +35,5 @@ RUN apt-get update && \
 
 USER atom
 
-CMD ["/usr/bin/atom","-f"]
+ENTRYPOINT ["/usr/bin/atom"]
+CMD ["-f"]
